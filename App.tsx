@@ -12,7 +12,7 @@ function App(): React.JSX.Element {
 
   return (
     <SafeAreaView>
-      <StatusBar/>
+      <StatusBar barStyle="dark-content"/>
       <ScrollView>
         <Topappbar/>
         <Notifiche/>
